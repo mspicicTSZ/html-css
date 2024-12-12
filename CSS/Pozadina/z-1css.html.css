@@ -1,0 +1,15 @@
+body{
+    background-color: #A80000;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6F4H-a602SqQRULH6sF8v0mlkbNbk9WW65V8Jh1kAr67FqUP4JQvRZI5ndurgyNzcoAU&usqp=CAU");
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+    background-repeat: no-repeat;
+    background-position: 10px,50px;
+    background-attachment: fixed;
+}
+h1{
+    background-color: #C00000;
+}
+p{
+    background-color: #E00000;
+}
