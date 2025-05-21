@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FC Barcelona</title>
+  <title>Kontakt - FC Barcelona</title>
   <link rel="stylesheet" href="flexbox.css">
   <link rel="stylesheet" href="main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>FC Barcelona</h1>
+    <h1>Kontakt Forma</h1>
     <nav>
       <ul>
         <li><a href="index.html">Početna</a></li>
@@ -22,13 +21,15 @@
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Dobrodošli na stranicu posvećenu FC Barceloni!</h2>
-      <div class="logo">
-      <img src="slike/logo.png" height="226" width="223"/>
-      </div>
-      <p>Ovdje možete pronaći sve informacije o jednom od najpoznatijih nogometnih klubova na svijetu.</p>
-    </section>
+    <form action="#" method="post">
+      <label for="ime">Ime:</label>
+      <input type="text" id="ime" name="ime" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="poruka">Poruka:</label>
+      <textarea id="poruka" name="poruka" required></textarea>
+      <button type="submit">Pošalji</button>
+    </form>
   </main>
   <footer>
     <p>&copy; 2025 FC Barcelona Fan Stranica</p>

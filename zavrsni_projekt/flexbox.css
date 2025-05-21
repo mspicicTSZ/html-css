@@ -1,0 +1,41 @@
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galerija {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+main section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding-left: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+.igraci{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
